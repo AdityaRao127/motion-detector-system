@@ -40,9 +40,9 @@ PIR sensor image\
 
 
 ### GitHub Stats
-[![GitHub Commits](https://img.shields.io/github/commit-activity/m/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system)
-[![GitHub Forks](https://img.shields.io/github/forks/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system/network)
-[![GitHub License](https://img.shields.io/github/license/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system)
+[![Commits](https://img.shields.io/github/commit-activity/m/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system)
+[![Forks](https://img.shields.io/github/forks/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system/network)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ### GitHub Profile
