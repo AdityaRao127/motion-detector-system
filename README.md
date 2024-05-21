@@ -35,7 +35,7 @@ Developer with M5GO kit\
 ## How does the motion detector work? 
 The PIR sensor detects the heat emitted by a person or object, and this detection signal is sent to the microcontroller, which then sends an email to the specified recipient.
 
-PIR sensor image
+PIR sensor image\
 ![PIR sensor](https://ars.els-cdn.com/content/image/3-s2.0-B9780128236949000190-f08-05-9780128236949.jpg)
 
 
