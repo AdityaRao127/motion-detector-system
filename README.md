@@ -1,7 +1,7 @@
 # Motion detector system to send MMS messages when motion is detected. Created with M5GO IoT starter kit. 
 
-Developed with MicroPython ![Micropython Logo](https://micropython.org/static/logo/micropython-logo-200x200.png)
-![M5GO Kit]([https://static-cdn.m5stack.com/resource/docs/products/core/m5go_v2.7/m5go_v2.7_02.webp](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2YtHgVWWzzhsuiFNPCIjIHTisbo3g6TOfmewtrU9gA&s))
+Developed with MicroPython ![Micropython Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Micropython-logo.svg/1200px-Micropython-logo.svg.png)
+![M5GO Kit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2YtHgVWWzzhsuiFNPCIjIHTisbo3g6TOfmewtrU9gA&s)
 
 ## How to use? 
 1. Follow manual instructions to plug the Motion sensor with appropriate wires into the ESP32 device.
