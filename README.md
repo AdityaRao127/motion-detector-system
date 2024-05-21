@@ -17,7 +17,7 @@ Developer with M5GO kit\
 
 5. Visit [m5stack website](https://flow.m5stack.com/) and insert [main.py](https://github.com/AdityaRao127/motion-detector-system/blob/main/main.py) into the file.
 
-6. Add the environment variables into the appropriate fields. Choose the appropriate domain name for the `sender_email`:\
+6. Add the environment variables into the appropriate fields. Choose the appropriate domain name for the `sender_email`:
   - AT&T: **number@txt.att.net** for a normal text message (SMS), or **number@mms.att.net** for a multimedia message (MMS)
   - Verizon: **number@vtext.com** for both SMS and MMS messages
   - Sprint PCS: **number@messaging.sprintpcs.com** for both SMS and MMS messages
@@ -42,7 +42,7 @@ PIR sensor image\
 ### GitHub Stats
 [![GitHub Commits](https://img.shields.io/github/commit-activity/m/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system)
 [![GitHub Forks](https://img.shields.io/github/forks/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system/network)
-[![GitHub License](https://img.shields.io/github/license/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/AdityaRao127/motion-detector-system.svg)](https://github.com/AdityaRao127/motion-detector-system/blob/main/LICENSE)
 
 
 ### GitHub Profile
