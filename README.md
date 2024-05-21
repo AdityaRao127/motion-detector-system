@@ -1,6 +1,6 @@
 # Motion detector system to send MMS messages when motion is detected. Created with M5GO IoT starter kit. 
 
-Developed with MicroPython\ 
+Developed with MicroPython
 ![Micropython Logo](https://dashboard.snapcraft.io/site_media/appmedia/2018/12/mp_logo.png)\
 
 
