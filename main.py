@@ -13,7 +13,7 @@ setScreenColor(0x0000FF)  # Set screen color to blue
 # Define the PIR sensor pin
 pir_sensor = machine.Pin(36, machine.Pin.IN)
 
-# Initialize counter for motion detection
+
 motion_count = 0
 
 # Display motion count on the screen
@@ -117,7 +117,7 @@ class SMTP:
     def send(self, content=''):
         if content:
             self.write(content)
-        self._sock.write(b'\r\n.\r\n')  # the five letter sequence marked for ending
+        self._sock.write(b'\r\n.\r\n')  
         line = self._sock.readline()
         return (int(line[:3]), line[4:].strip().decode())
 
@@ -125,19 +125,18 @@ class SMTP:
         self.cmd("QUIT")
         self._sock.close()
 
-# Your network credentials
+
 ssid = ''
 password = ''
 
-# Email details
+
 sender_email = ''
 sender_name = 'M5GO'  # sender name
-sender_app_password = ''  # Replace this with your actual app password
+sender_app_password = 'p'  # Replace this with your actual app password
 recipient_email = ''
-email_subject = 'Motion Alert'
+email_subject = ''
 
 def connect_wifi(ssid, password):
-    # Connect to your network
     station = network.WLAN(network.STA_IF)
     station.active(True)
     station.connect(ssid, password)
@@ -151,7 +150,6 @@ def get_formatted_time():
     return "{:04d}-{:02d}-{:02d} {:02d}:{:02d}:{:02d}".format(tm[0], tm[1], tm[2], tm[3], tm[4], tm[5])
 
 def send_email():
-    # Get current time
     current_time = get_formatted_time()
     
     # Send the email
@@ -166,7 +164,7 @@ def send_email():
     smtp.quit()
     print("Email sent successfully at " + current_time)
 
-# Connect to your network
+
 connect_wifi(ssid, password)
 
 while True:
