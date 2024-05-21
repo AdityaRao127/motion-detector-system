@@ -1,6 +1,6 @@
 # Motion detector system to send MMS messages when motion is detected. Created with M5GO IoT starter kit. 
 
-Developed with MicroPython ![Micropython Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Micropython-logo.svg/1200px-Micropython-logo.svg.png)
+Developed with MicroPython ![Micropython Logo](https://dashboard.snapcraft.io/site_media/appmedia/2018/12/mp_logo.png)
 ![M5GO Kit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2YtHgVWWzzhsuiFNPCIjIHTisbo3g6TOfmewtrU9gA&s)
 
 ## How to use? 
@@ -33,9 +33,6 @@ The PIR sensor detects the heat emitted by a person or object, and this detectio
 
 PIR sensor image
 [PIR sensor](https://ars.els-cdn.com/content/image/3-s2.0-B9780128236949000190-f08-05-9780128236949.jpg)
-
-
-
 
 
 ### GitHub Stats
