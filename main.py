@@ -8,7 +8,7 @@ from m5ui import *
 from uiflow import *
 import utime
 
-setScreenColor(0x0000FF)  # Set screen color to blue
+setScreenColor(0xCCCCCC)  # Set screen color to blue
 
 # Define the PIR sensor pin
 pir_sensor = machine.Pin(36, machine.Pin.IN)
@@ -17,7 +17,8 @@ pir_sensor = machine.Pin(36, machine.Pin.IN)
 motion_count = 0
 
 # Display motion count on the screen
-label = M5TextBox(10, 10, "Motion: 0", lcd.FONT_DejaVu18, 0xFFFFFF, rotate=0)
+label = M5TextBox(10, 10, "Motion: 0", lcd.FONT_DejaVu40, 0xCCCCCC, rotate=0)
+
 
 # Define SMTP class directly in the same file
 DEFAULT_TIMEOUT = 10  # sec
@@ -132,9 +133,9 @@ password = ''
 
 sender_email = ''
 sender_name = 'M5GO'  # sender name
-sender_app_password = 'p'  # Replace this with your actual app password
+sender_app_password = ''  # Replace this with your actual app password
 recipient_email = ''
-email_subject = ''
+email_subject = 'Motion Detected'
 
 def connect_wifi(ssid, password):
     station = network.WLAN(network.STA_IF)
@@ -159,7 +160,7 @@ def send_email():
     smtp.write("From:" + sender_name + "<" + sender_email + ">\n")
     smtp.write("To:" + recipient_email + "\n")
     smtp.write("Subject:" + email_subject + "\n")
-    smtp.write("Motion detected at front door!!!")
+    smtp.write("Motion was detected at front door!")
     smtp.send()
     smtp.quit()
     print("Email sent successfully at " + current_time)
@@ -177,7 +178,7 @@ while True:
         send_email()
         
         # Wait for 10 seconds before checking again
-        time.sleep(10)
+        time.sleep(18)
     else:
         label.setText("Motion: 0")
         
