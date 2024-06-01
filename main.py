@@ -135,7 +135,7 @@ sender_email = ''
 sender_name = 'M5GO'  # sender name
 sender_app_password = ''  # Replace this with your actual app password
 recipient_email = ''
-email_subject = 'Motion Detected'
+email_subject = '' 
 
 def connect_wifi(ssid, password):
     station = network.WLAN(network.STA_IF)
@@ -160,10 +160,14 @@ def send_email():
     smtp.write("From:" + sender_name + "<" + sender_email + ">\n")
     smtp.write("To:" + recipient_email + "\n")
     smtp.write("Subject:" + email_subject + "\n")
+<<<<<<< HEAD
     smtp.write("Motion was detected at front door!")
+=======
+    smtp.write("Motion detected!")
+>>>>>>> ca3eb8bcab6c01a5de85b5a92f49180fbadf273d
     smtp.send()
     smtp.quit()
-    print("Email sent successfully at " + current_time)
+    print("Email sent successfully at " + current_time) # debugging purposes
 
 
 connect_wifi(ssid, password)
